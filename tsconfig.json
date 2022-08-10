@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "pretty": true,
+        "sourceMap": true,
+        "target": "es2020",
+        "outDir": "./dist",
+        "baseUrl": "./src",
+        "rootDir": "./src",
+        "allowJs": true,
+        "esModuleInterop": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "typeRoots": ["./src/typings", "./node_modules/@types"],
+        "noImplicitAny": true,
+        "declaration": true,
+        "skipLibCheck": true,
+        "allowSyntheticDefaultImports": true
+        // "paths": {
+        //     "@Src/*": ["./*"]
+        //     // "@Interfaces/*": ["interfaces/*"],
+        //     // "@Services/*": ["services/*"],
+        //     // "@Constraints/*": ["constraints/*"],
+        //     // "@Assets/*": ["assets/*"],
+        //     // "@Boot/*": ["boot/*"],
+        //     // "@Typings/*": ["typings/*"],
+        //     // "@Models/*": ["models/*"],
+        //     // "@Middleware/*": ["middleware/*"],
+        //     // "@Dto/*": ["dto/*"],
+        //     // "@Controller/*": ["controller/*"],
+        //     // "@Config/*": ["config/*"],
+        //     // "@Helper/*": ["helper/*"]
+        // }
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules"]
+}

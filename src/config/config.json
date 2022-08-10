@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "HKG_API",
+    "dialect": "mysql",
+    "host": "127.0.0.1"
+  }
+}
